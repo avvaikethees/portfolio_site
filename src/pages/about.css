@@ -1,0 +1,13 @@
+.about-container {
+  display: flex; 
+  flex-direction: row; 
+}
+.about-text {
+  display: flex; 
+  flex-direction: column; 
+}
+
+.headshot {
+  width: 320px; 
+  max-height: 480px; 
+}
