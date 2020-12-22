@@ -25,6 +25,8 @@ const IndexPage = () => {
     <Link to="/scheduler">Scheduler</Link> <br />
     <Link to="/pomododo">Pomodoro</Link> <br />
     <Link to="/wlab">W.Lab</Link> <br />
+    <Link to="/books">Books</Link> <br />
+    
     <button onClick={() => setModalIsOpen(true)}>Open modal</button>
     <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
       <h2>Modal Title </h2>
