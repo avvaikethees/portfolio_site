@@ -25,7 +25,7 @@ export default function Home() {
             I'm a multidisciplinary human who lives in Canada and loves books, tech, and riding my bike. I'm naturally curious about things, and overly enthusiastic about other things. 
           </p>
           <p>
-            Please click around. This is a place where I showcase some of my work in publishing, software, side projects, and bicycle trips.
+            [In Progress] Please click around. This is a place where I showcase some of my work in publishing, software, side projects, and bicycle trips.
           </p>
           <p>
              [In Progress] I also share some things about the long bicycle trips I've been on, if you're curious! 
