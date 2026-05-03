@@ -18,6 +18,12 @@ export default function Nav() {
           >
             Book Bike
           </Link>
+          <Link
+            href="/contact"
+            className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-teal-500 dark:hover:text-teal-400 transition-colors"
+          >
+            Contact
+          </Link>
           <ThemeToggle />
         </div>
       </nav>

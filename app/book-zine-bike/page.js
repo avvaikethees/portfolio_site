@@ -183,6 +183,11 @@ export default function BookZineBike() {
             <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
               <strong><i>I charge a sliding-scale fee for nonprofits and educational institutions. Please get in touch with your budget and I&apos;ll happy to work with you. I can tailor workshops to meet your needs or educational goals.</i></strong>
             </p>
+            <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Email: <span className="text-teal-500 font-bold">avvai.kethees@gmail.com</span>
+              <br />
+              Instagram: <a href="https://www.instagram.com/graphicnovelbookclub" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:text-teal-400 transition-colors">@graphicnovelbookclub</a>
+            </p>
           </div>
                {/* Hero images — full bleed, stacked on mobile */}
       <div className="w-screen relative left-1/2 -translate-x-1/2 grid grid-cols-1 sm:grid-cols-3 gap-3 mb-2">

@@ -13,7 +13,10 @@ export default function Footer() {
             Home
           </Link>
           <Link href="/book-zine-bike" className="hover:text-teal-500 dark:hover:text-teal-400 transition-colors">
-            Book-Zine Bike
+            Book Bike
+          </Link>
+          <Link href="/contact" className="hover:text-teal-500 dark:hover:text-teal-400 transition-colors">
+            Contact
           </Link>
         </nav>
       </div>
