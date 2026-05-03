@@ -13,7 +13,7 @@ export default function Nav() {
         </Link>
         <div className="flex items-center gap-4">
           <Link
-            href="/book-zine-bike"
+            href="/book-bike"
             className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-teal-500 dark:hover:text-teal-400 transition-colors"
           >
             Book Bike
