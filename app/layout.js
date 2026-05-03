@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className="bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 font-sans antialiased min-h-screen flex flex-col">
+      <body className="bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 font-sans antialiased min-h-screen flex flex-col [overflow-x:clip]">
         <Nav />
         <main className="flex-1 max-w-2xl mx-auto w-full px-4 py-12">
           {children}

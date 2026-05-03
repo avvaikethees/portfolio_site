@@ -9,9 +9,15 @@ export default function Nav() {
           href="/"
           className="font-semibold text-zinc-900 dark:text-zinc-100 hover:text-teal-500 dark:hover:text-teal-400 transition-colors"
         >
-          Avvai Ketheeswaran
+          Avvai K
         </Link>
         <div className="flex items-center gap-4">
+          <Link
+            href="/book-zine-bike"
+            className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-teal-500 dark:hover:text-teal-400 transition-colors"
+          >
+            Book Bike
+          </Link>
           <ThemeToggle />
         </div>
       </nav>

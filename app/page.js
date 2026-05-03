@@ -18,16 +18,14 @@ export default function Home() {
           Hi, I&apos;m Avvai!
         </h1>
         <p className="text-zinc-500 dark:text-zinc-400 mb-6 italic">
-          (It rhymes with &ldquo;hey&rdquo; — "ah-vey")
+          (It rhymes with &ldquo;hey&rdquo;)
         </p>
         <div className="space-y-4 text-zinc-600 dark:text-zinc-400 leading-relaxed">
           <p>
-            I'm a multidisciplinary human who lives in Canada and loves books, tech, and riding my bike. I'm naturally curious about things, and sometimes overly enthusiastic about other things. 
+            I'm a multidisciplinary human who lives in Canada and loves books, tech, and riding my bike. I'm naturally curious about things, and overly enthusiastic about other things. 
           </p>
           <p>
-            
-            Please click around. Here you'll learn about my publishing experience, software development, and my newest adventure -- a mobile bicycle bookshop/community art space. 
-
+            Please click around. This is a place where I showcase some of my work in publishing, software, side projects, and bicycle trips.
           </p>
           <p>
              [In Progress] I also share some things about the long bicycle trips I've been on, if you're curious! 

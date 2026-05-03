@@ -12,6 +12,9 @@ export default function Footer() {
           <Link href="/" className="hover:text-teal-500 dark:hover:text-teal-400 transition-colors">
             Home
           </Link>
+          <Link href="/book-zine-bike" className="hover:text-teal-500 dark:hover:text-teal-400 transition-colors">
+            Book-Zine Bike
+          </Link>
         </nav>
       </div>
     </footer>
