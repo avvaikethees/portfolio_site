@@ -23,7 +23,7 @@ export default function BookZineBike() {
             What is the book bike?
           </h1>
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-2">
-            It is a micro, mobile bookstore, library, community art space, and publishing press, all centered around comics and art and a bicycle.
+            It is a micro, mobile bookstore, library, community art space, and publishing press, all centered around comics and art and a bicycle, in Vancouver, BC.
           </p>
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mt-4 mb-8">
             The project began with a shared love of graphic novels and comics. I started the Instagram account to share &amp; recommend what I was reading. You can check it out here: <a
