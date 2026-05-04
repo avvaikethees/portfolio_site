@@ -12,8 +12,9 @@ export default function BookZineBike() {
           <Image
             src="/book_bike_illustration.png"
             alt="Book bike illustration"
-            width={5400}
-            height={7200}
+            width={1500}
+            height={2000}
+            sizes="(min-width: 640px) 33vw, 100vw"
             className="w-full h-auto -my-28 animate-wiggle"
             priority
           />
@@ -52,6 +53,7 @@ export default function BookZineBike() {
               src="/PXL_20251122_180117977.MP.jpg"
               alt="Book bike"
               fill
+              sizes="(min-width: 640px) 33vw, 100vw"
               className="object-cover"
               priority
             />
@@ -64,6 +66,7 @@ export default function BookZineBike() {
               src="/PXL_20250810_013017606.jpg"
               alt="Book bike"
               fill
+              sizes="(min-width: 640px) 33vw, 100vw"
               className="object-cover"
               priority
             />
@@ -75,8 +78,9 @@ export default function BookZineBike() {
             <Image
               src="/MF-DSCF6391.jpg"
               alt="Book bike"
-              width={4160}
-              height={6240}
+              width={1333}
+              height={2000}
+              sizes="(min-width: 640px) 33vw, 100vw"
               className="w-full h-auto"
               priority
             />
@@ -101,10 +105,10 @@ export default function BookZineBike() {
                   src="/PXL_20250810_214454286.jpg"
                   alt="Book bike detail"
                   fill
+                  sizes="(min-width: 640px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>
-              {/* <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1">Caption placeholder</p> */}
             </div>
             <div>
               <div className="relative aspect-[4/3] sm:aspect-square overflow-hidden rounded">
@@ -112,10 +116,10 @@ export default function BookZineBike() {
                   src="/MF-DSCF6413.jpg"
                   alt="Book bike detail"
                   fill
+                  sizes="(min-width: 640px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>
-              {/* <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1">Caption placeholder</p> */}
             </div>
           </div>
         </div>
@@ -125,7 +129,7 @@ export default function BookZineBike() {
             A community crafting space
           </h2>
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6">
-            I love supporting people who want to make things! 
+            I love supporting people who want to make things!
             <br/>In the summer, you&apos;ll often find me set up in the park, surrounded by people making zines. Interested in a zine-making workshop? <a href="#workshops" className="text-teal-500 hover:text-teal-400 transition-colors">Click here to learn more!</a>
           </p>
           <div className="relative w-full aspect-[3/2] overflow-hidden rounded mb-1">
@@ -133,6 +137,7 @@ export default function BookZineBike() {
               src="/MF-DSCF6425.jpg"
               alt="Community crafting"
               fill
+              sizes="100vw"
               className="object-cover"
             />
           </div>
@@ -146,30 +151,6 @@ export default function BookZineBike() {
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6">
             A small, scrappy micro&ndash;indie press. It&apos;s the publishing side of what we do&mdash;a place to encourage local creators to make small publications of any kind, whether that&apos;s a zine or a comic or anything that&apos;s a thing-with-pages.
           </p>
-          {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-2">
-            <div>
-              <div className="relative aspect-[4/3] sm:aspect-square overflow-hidden rounded">
-                <Image
-                  src="/MF-DSCF6425.jpg"
-                  alt="Common Spokes Press"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1">Caption placeholder</p>
-            </div>
-            <div>
-              <div className="relative aspect-[4/3] sm:aspect-square overflow-hidden rounded">
-                <Image
-                  src="/MF-DSCF6450.jpg"
-                  alt="Common Spokes Press"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1">Caption placeholder</p>
-            </div>
-          </div> */}
         </div>
 
         <div id="workshops" className="scroll-mt-20">
@@ -189,48 +170,45 @@ export default function BookZineBike() {
               Instagram: <a href="https://www.instagram.com/graphicnovelbookclub" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:text-teal-400 transition-colors">@graphicnovelbookclub</a>
             </p>
           </div>
-               {/* Hero images — full bleed, stacked on mobile */}
-      <div className="w-screen relative left-1/2 -translate-x-1/2 grid grid-cols-1 sm:grid-cols-3 gap-3 mb-2">
-        <div>
-          <div className="relative aspect-[4/3] sm:aspect-[3/4] overflow-hidden rounded">
-            <Image
-              src="/068.jpg"
-              alt="Book bike"
-              fill
-              className="object-cover"
-              priority
-            />
+          {/* Workshop photos — full bleed, stacked on mobile */}
+          <div className="w-screen relative left-1/2 -translate-x-1/2 grid grid-cols-1 sm:grid-cols-3 gap-3 mb-2">
+            <div>
+              <div className="relative aspect-[4/3] sm:aspect-[3/4] overflow-hidden rounded">
+                <Image
+                  src="/068.jpg"
+                  alt="Book bike"
+                  fill
+                  sizes="(min-width: 640px) 33vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1 px-1">Got Craft Holiday Market, Vancouver. <br/>Photo credit: <a href="https://beateschonborn.com/" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:text-teal-400 transition-colors">Beaté Schönborn</a></p>
+            </div>
+            <div>
+              <div className="relative aspect-[4/3] sm:aspect-[3/4] overflow-hidden rounded">
+                <Image
+                  src="/041.jpg"
+                  alt="Book bike"
+                  fill
+                  sizes="(min-width: 640px) 33vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1 px-1">Got Craft Holiday Market, Vancouver. <br/>Photo credit: <a href="https://beateschonborn.com/" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:text-teal-400 transition-colors">Beaté Schönborn</a></p>
+            </div>
+            <div>
+              <div className="relative aspect-[4/3] sm:aspect-[3/4] overflow-hidden rounded">
+                <Image
+                  src="/067.jpg"
+                  alt="Book bike"
+                  fill
+                  sizes="(min-width: 640px) 33vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1 px-1">Got Craft Holiday Market, Vancouver. <br/>Photo credit: <a href="https://beateschonborn.com/" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:text-teal-400 transition-colors">Beaté Schönborn</a></p>
+            </div>
           </div>
-          <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1 px-1">Got Craft Holiday Market, Vancouver. <br/>Photo credit: <a href="https://beateschonborn.com/" target="_blank" rel="noopener noreferrer" 
-  className="text-teal-500 hover:text-teal-400 transition-colors">Beaté Schönborn</a></p>
-        </div>
-        <div>
-          <div className="relative aspect-[4/3] sm:aspect-[3/4] overflow-hidden rounded">
-            <Image
-              src="/041.jpg"
-              alt="Book bike"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-          <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1 px-1">Got Craft Holiday Market, Vancouver. <br/>Photo credit: <a href="https://beateschonborn.com/" target="_blank" rel="noopener noreferrer" 
-  className="text-teal-500 hover:text-teal-400 transition-colors">Beaté Schönborn</a> </p>
-        </div>
-        <div>
-          <div className="relative aspect-[4/3] sm:aspect-[3/4] overflow-hidden rounded">
-            <Image
-              src="/067.jpg"
-              alt="Book bike"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-          <p className="text-xs text-zinc-400 dark:text-zinc-500 italic mt-1 px-1">Got Craft Holiday Market, Vancouver. <br/>Photo credit: <a href="https://beateschonborn.com/" target="_blank" rel="noopener noreferrer" 
-  className="text-teal-500 hover:text-teal-400 transition-colors">Beaté Schönborn</a></p>
-        </div>
-      </div>
         </div>
       </div>
     </div>
