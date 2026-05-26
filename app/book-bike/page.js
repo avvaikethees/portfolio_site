@@ -152,10 +152,9 @@ export default function BookZineBike() {
           <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-2">
             Common Spokes Press
           </h2>
-          <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-2">
-            A small, scrappy micro&ndash;indie press. It&apos;s the publishing side of what we do&mdash;a place to encourage local creators to make small publications of any kind, whether that&apos;s a zine or a comic or anything that&apos;s a thing-with-pages.
+          <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6">
+            A small, scrappy micro&ndash;indie press. It&apos;s the publishing side of what we do&mdash;a place to encourage local creators to make small publications of any kind, whether that&apos;s a zine or a comic or anything that&apos;s a thing-with-pages. <a href="/common-spokes-press" className="text-teal-500 hover:text-teal-400 transition-colors">Click here to learn more!</a>
           </p>
-          <a href="/common-spokes-press" className="text-teal-500 hover:text-teal-400 transition-colors text-sm">Read more here</a>
         </div>
 
         <div id="workshops" className="scroll-mt-20">
